@@ -343,7 +343,7 @@ class Hybrid_Auth
 	/**
 	* Utility function, redirect to a given URL with php header or using javascript location.href
 	*/
-	public static function redirect( $url, $mode = "PHP" )
+	public static function redirect( $url, $mode = "JS" )
 	{
 		Hybrid_Logger::info( "Enter Hybrid_Auth::redirect( $url, $mode )" );
 
